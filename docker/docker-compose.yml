@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  keycloak:
+    container_name: keycloak
+    image: jboss/keycloak
+    ports:
+     - 127.0.0.1:9000:8080
+    environment:
+     - KEYCLOAK_USER=admin
+     - KEYCLOAK_PASSWORD=admin
+     - KEYCLOAK_IMPORT=/import/sample-realm.json
+    volumes:
+     - ./import:/import
+    restart: unless-stopped
