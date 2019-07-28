@@ -1,6 +1,6 @@
 # Configuring Vue with OpenIDConnect
 
-A Sample project configuring a VUE application with OpenIDConnect authentication.  The sample was confirmed/adapted from [blog post](https://www.jerriepelser.com/blog/using-auth0-with-vue-oidc-client-js/) utilizing KeyCloak instead of Auth0.
+A Sample project configuring a VUE application with OpenIDConnect authentication.  The sample was confirmed/adapted from this [blog post](https://www.jerriepelser.com/blog/using-auth0-with-vue-oidc-client-js/) utilizing KeyCloak instead of Auth0.
 
 ## Clone the Repository
 
@@ -8,7 +8,7 @@ A Sample project configuring a VUE application with OpenIDConnect authentication
 git clone https://github.com/sslaws/vue-auth.git
 ```
 
-## KeyClaok setup
+## KeyCloak setup
 
 KeyCloak should be configured with a Sample realm and a Test client. The sample app is configured for Keycloak listening on port 9000 and the app on 8080.
 
